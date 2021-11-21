@@ -339,6 +339,8 @@ module.exports = function (webpackEnv) {
         react: path.resolve(__dirname, "../src/react/packages/react"),
         "react-dom": path.resolve(__dirname, "../src/react/packages/react-dom"),
         shared: path.resolve(__dirname, "../src/react/packages/shared"),
+        'react-devtools-timeline': path.resolve(__dirname, "../src/react/packages/react-devtools-timeline"),
+        'react-devtools-shared': path.resolve(__dirname, "../src/react/packages/react-devtools-shared"),
         "react-reconciler": path.resolve(
           __dirname,
           "../src/react/packages/react-reconciler"
