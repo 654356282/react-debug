@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "react/*": ["src/react/packages/react/*"],
+      "react-dom/*": ["src/react/packages/react-dom/*"],
+      "shared/*": ["src/react/packages/shared/*"],
+      "react-devtools-timeline/*": ["src/react/packages/react-devtools-timeline/*"],
+      "react-devtools-shared/*": ["src/react/packages/react-devtools-shared/*"],
+      "react-reconciler/*": ["src/react/packages/react-reconciler/*"],
+      "scheduler/*": ["src/react/packages/scheduler/*"]
+    }
+  }
+}
